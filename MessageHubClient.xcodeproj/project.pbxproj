@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F4B8CD81A8E834500174FBB /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B8CD71A8E834500174FBB /* Message.swift */; };
 		4FB8F13D1A8BE3F800DEDF61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB8F13C1A8BE3F800DEDF61 /* AppDelegate.swift */; };
 		4FB8F13F1A8BE3F800DEDF61 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB8F13E1A8BE3F800DEDF61 /* MasterViewController.swift */; };
 		4FB8F1411A8BE3F800DEDF61 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB8F1401A8BE3F800DEDF61 /* DetailViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F4B8CD71A8E834500174FBB /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		4FB8F1371A8BE3F700DEDF61 /* MessageHubClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageHubClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB8F13B1A8BE3F800DEDF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FB8F13C1A8BE3F800DEDF61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				4FB8F13C1A8BE3F800DEDF61 /* AppDelegate.swift */,
+				4F4B8CD71A8E834500174FBB /* Message.swift */,
 				4FB8F13E1A8BE3F800DEDF61 /* MasterViewController.swift */,
 				4FB8F1401A8BE3F800DEDF61 /* DetailViewController.swift */,
 				4FB8F1421A8BE3F800DEDF61 /* Main.storyboard */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FB8F1411A8BE3F800DEDF61 /* DetailViewController.swift in Sources */,
+				4F4B8CD81A8E834500174FBB /* Message.swift in Sources */,
 				4FB8F13F1A8BE3F800DEDF61 /* MasterViewController.swift in Sources */,
 				4FB8F13D1A8BE3F800DEDF61 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				4FB8F15A1A8BE3F800DEDF61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FB8F15B1A8BE3F800DEDF61 /* Build configuration list for PBXNativeTarget "MessageHubClientTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				4FB8F15D1A8BE3F800DEDF61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
